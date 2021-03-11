@@ -75,7 +75,7 @@
 }
 
 .insp__play {
-	background-image: url(/img/play.svg);
+	background-image: url("../../img/play.svg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

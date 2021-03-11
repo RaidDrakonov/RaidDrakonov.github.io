@@ -1,5 +1,5 @@
 .featured {
-	background-image: url("../img/feature/featured-bg.jpg");
+	background-image: url("../../img/feature/featured-bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -125,5 +125,3 @@
 	line-height: 13px;
 	color: rgba(255, 255, 255, 0.502293);
 }
-
-

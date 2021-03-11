@@ -231,7 +231,7 @@ a {
 .advanteges {
 	padding-top: 64px;
 	background-color: #F4F9FD;
-	background-image: url('/images/special-bg2.svg');
+	background-image: url('../images/special-bg2.svg');
 	background-repeat: no-repeat;
 	background-position: center right;
 }
@@ -245,19 +245,19 @@ a {
 .advanteges-box__info {
 	max-width: 456px;
 	padding-top: 60px;
-	background-image: url('/images/title-bg-1.svg');
+	background-image: url('../images/title-bg-1.svg');
 	background-repeat: no-repeat;
 	background-position: 22px 76px;
 }
 
 .advanteges-box--right .advanteges-box__info {
 	order: 1;
-	background-image: url('/images/title-bg-2.svg');
+	background-image: url('../images/title-bg-2.svg');
 	background-position: 22px 130px;
 }
 
 .dvanteges-box__info--bg {
-	background-image: url('/images/title-bg-3.svg');
+	background-image: url('../images/title-bg-3.svg');
 	background-position: 5px 100px;
 }
  
@@ -284,7 +284,7 @@ a {
 
 /* REVIEWS */
 .reviews {
-	background-image: url('/images/rev-bg.jpg');
+	background-image: url('../images/rev-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;

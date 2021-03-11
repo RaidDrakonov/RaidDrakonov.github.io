@@ -1,0 +1,526 @@
+/* specification */
+
+body {
+	font-family: 'Sintony', sans-serif;
+	color: #5c6369;
+}
+
+img {
+	max-width: 100%;
+  height: auto;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #14141d;
+}
+
+.yellow {
+	color: #fea100;
+	margin: 0;
+}
+
+/*Firts Screen*/
+
+.main-header {
+  margin: 24px 0;
+}
+
+.menu {
+margin-top: 10px;
+}
+
+.menu__item {
+  font-weight: 700;
+  font-style: 14px;
+}
+
+.menu__item a {
+  color: #2c465a;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu__item a:hover {
+  color: green;
+  text-decoration-line: underline;
+}
+
+.cta {
+  background:  #fea100;
+	color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 13px 0;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  border: 0;
+  margin-top: -5px;
+  text-align: center;
+}
+
+.cta:hover {
+  text-decoration: none;
+  color: #blue;
+}
+
+.book__icon {
+  background: url('../img/order.png');
+  width: 21px;
+  height: 17px;
+  display: block;
+  margin-right: 13px;
+}
+
+/*Second screen*/
+
+.offer {
+  background: url('../img/first-bg.jpg') no-repeat center top;
+}
+
+.title {
+  padding: 210px 0;
+}
+
+.title__heading {
+  font-size: 56px;
+  color: #fff;
+}
+
+.title__desc {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin-top: -15px;
+}
+
+.title__desc span {
+  	color: #fea100;
+}
+
+/*contact*/
+
+.call {
+  background: #edf1f3;
+  border-bottom: 1px solid #dde3e7;
+  padding: 30px 0;
+}
+
+.phone {
+  width: 455px;
+}
+
+.phone__text {
+  background: url('../img/phone.png') no-repeat left center;
+	color: #14141d;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 180px;
+  padding-left: 56px;
+  padding-top: 5px;
+}
+
+.phone__text span {
+  font-size: 16px;
+  margin-top: -5px;
+  display: block;
+}
+
+.phone__digits {
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #14141d;
+	margin-left: 42px;
+	margin-top: -5px;
+}
+
+.phone__digits a {
+	text-decoration: none;
+	color: #14141d;
+	outline: none;
+}
+
+/*Second Screen*/
+
+.about {
+  margin: 70px 0 100px;
+}
+
+.history {
+  margin-top: 60px;
+}
+
+.history__title {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.history__text {
+  font-size: 14px;
+}
+
+.history__button {
+  width: 148px;
+  margin-top: 48px;
+}
+
+.food-images {
+
+}
+
+.food-images__item {
+  margin-bottom: 10px;
+}
+
+.food-images-down {
+  margin-top: 50px;
+}
+
+/*Third screen*/
+
+.special {
+  background: url('../img/third-bg.jpg') no-repeat center top;
+	padding-top: 70px;
+}
+
+.special-title {
+  text-align: center;
+  padding-bottom: 16px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.food {
+  text-align: center;
+  box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+  margin-bottom: 130px;
+  margin-top: 20px;
+}
+
+.food__img {
+  margin-bottom: 45px;
+}
+
+.food__title {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.food__desc {
+  font-size: 14px;
+  padding: 0 50px;
+}
+
+.food__details {
+	border-top: 1px solid #e1e1e1;
+	margin: 0 45px;
+	text-align: left;
+	color: #14141d;
+	padding: 19px 0;
+}
+
+.food__del {
+	text-transform: uppercase;
+	width: 78px;
+	font-size: 13px;
+	border-right: 1px solid #e1e1e1;
+	margin-right: 18px;
+	font-weight: 700;
+}
+
+.food__del span {
+	color: #fe4c8d;
+}
+
+.food__phone {
+	font-size: 26px;
+	font-family: 'Playfair Display', serif;
+}
+
+.food__price {
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+ /*footer*/
+
+ .footer {
+	 background: #373844;
+	 color: #93989e;
+	 font-size: 14px;
+	 text-transform: uppercase;
+	 padding: 72px 80px;
+ }
+
+ .socials {
+
+ }
+
+ .socials__item a {
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 50%;
+ }
+
+ .socials__item_fb a {
+ 	background: #3b5998 url('../img/fb.png') no-repeat center center;
+ }
+
+ .socials__item_tw a {
+ 	background: #55acee url('../img/tw.png') no-repeat center center;
+ 	margin: 0 10px;
+ }
+
+ .socials__item_g a {
+ 	background: #dd4b39 url('../img/g.png') no-repeat center center;
+ }
+
+ .line {
+	background: #52535e;
+ 	height: 1px;
+ 	margin-top: 7px;
+ 	margin-top: 50px;
+ }
+
+ .credits {
+	 margin-top: 43px;
+	 text-align: center;
+ }
+
+ .white-popup-block {
+	 background: #FFF;
+	 padding: 20px 30px;
+	 text-align: left;
+	 max-width: 650px;
+	 margin: 40px auto;
+	 position: relative;
+}
+
+/*responsive*/
+
+@media only screen and (max-width : 1199px) {
+
+	.food__phone {
+		font-size: 22px;
+		font-family: 'Playfair Display', serif;
+	}
+
+	.food__price {
+		font-size: 25px;
+		font-family: 'Playfair Display', serif;
+	}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+		.logo {
+			display: block;
+	    margin: 0 auto;
+	    margin-bottom: 30px;
+		}
+
+		.cta {
+			 margin: 20px 0 0;
+		}
+
+		.history {
+			flex-wrap: nowrap;
+		}
+
+		.food__del {
+    width: 55px;
+    margin-right: 10px;
+    font-size: 10px;;
+		}
+
+		.food__phone {
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    }
+
+		.food__price {
+    font-size: 19px;
+    font-family: 'Playfair Display', serif;
+		}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+		.food-images {
+		display: inline-flex;
+		margin-bottom: 5px;
+		}
+
+		.food-images__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+		}
+}
+
+@media screen and (max-width: 576px) {
+		.logo {
+			justify-content: center;
+		}
+
+		.menu {
+		flex-direction: column;
+		text-align: center;
+		padding-bottom: 6px;
+		}
+
+		.menu li {
+			padding: 2 0;
+		}
+
+		.phone__digits {
+		 font-size: 18px;
+		 margin-left: -15px;
+		  margin-top: 12px;
+		}
+
+		.phone__text {
+    font-size: 12px;
+    padding-left: 48px;
+    padding-top: 10px;
+		}
+
+		.phone__text span {
+    font-size: 14px;
+    margin-top: -2px;
+		}
+
+		.food-images {
+		justify-content: center;
+    margin-bottom: 5px;
+    flex-direction: column;
+		}
+
+		.title {
+    padding: 100px 0;
+		}
+
+		.call {
+    padding: 20px 20px;
+		}
+
+		.phone {
+    width: auto;
+		}
+
+		.about {
+    margin: -50px 0 5px;
+    text-align: center;
+		}
+
+		.cta.history__button {
+    margin: 20px 0 0;
+    width: 100%;
+		}
+
+		.food-images__item {
+    width: 100%;
+		}
+
+		.food {
+		text-align: center;
+		box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+		margin-bottom: 40px;
+		margin-top: 55px;
+			}
+
+		.food__img {
+    margin-bottom: 10px;
+		}
+
+		.food__details {
+		 margin: -10px 25px;
+		 padding: 10px 0;
+		}
+
+		.food__phone {
+		 font-size: 16px;
+		 margin: 0 20px 0;
+		}
+
+		.footer {
+    padding: 25px 0px;
+		}
+
+		.socials__item a {
+		    width: 30px;
+		    height: 30px;
+		}
+
+		.line {
+		    height: 2px;
+		    margin-top: 12px;
+		}
+
+		.credits {
+    margin-top: 10px;
+		}
+
+		.food__del {
+		display: none;
+		}
+
+		.call {
+    padding: 20px 0;
+		}
+
+		.special {
+		padding-top: 15px;
+		padding-bottom: 10px;
+		}
+
+		.food {
+    margin-top: 20px;
+    background: #fff;
+		margin-bottom: 20px;
+		}
+
+		.food__desc {
+		 padding: 0px 20px;
+		}
+
+		.title__heading {
+    font-size: 33px;
+		}
+
+		.title__desc {
+    font-size: 25px;
+    margin-top: -5px;
+		}
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Luxury Restaurant</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <!-- Наш файл стилей -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="#">
+              <img src="img/logo.png" alt="Restaurant" class="logo">
+            </a>
+          </div>
+          <div class="col-lg-6">
+
+
+
+
+
+
+
+
+
+
+
+            <div class="b-menu">
+              <!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+              <input id="toggle" type="checkbox">
+
+              <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+
+              <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+              <label class="toggle-container" for="toggle">
+                <span class="button button-toggle"></span>
+              </label>
+
+              <!-- <nav class="nav">
+              <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Управление</a>
+              <a rel="nofollow" rel="noreferrer" class="nav-item" href="">История</a>
+              <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Статистика</a>
+              <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Настройки</a>
+              </nav> -->
+
+              <nav class="nav">
+                <ul class="menu d-flex justify-content-between">
+                  <li class="menu__item"><a href="">menu</a></li>
+                  <li class="menu__item"><a href="">Home</a></li>
+                  <li class="menu__item"><a href="">reservation</a></li>
+                  <li class="menu__item"><a href="">recipe</a></li>
+                  <li class="menu__item"><a href="">blog</a></li>
+                  <li class="menu__item"><a href="">Pages</a></li>
+                  <li class="menu__item"><a href="">contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+
+
+
+
+
+
+
+
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center ">
+            <button class="book cta d-flex justify-content-center">
+              <span class="book__icon"></span>Book your table
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="title">
+              <h1 class="title__heading">Teast your fav dish</h1>
+              <p class="title__desc">from<span> luxury restaurant.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Contact-->
+  <div id="call" class="call">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="phone  d-flex ml-auto mr-auto">
+            <div class="phone__text">
+              Call us Now for <span class="yellow">Home Delivery</span>
+            </div>
+            <div class="phone__digits"><a href="#pract" class="j-pract">1-008 005 006</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Second Screen-->
+  <div id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="history">
+            <h2 class="history__title">About Restaurent</h2>
+            <p class="history__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged... </p>
+            <a href="#" class="cta history__button">Read more</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="food-images food-images-down">
+            <img src="img/food1.jpg" alt="Pasta" class="food-images__item">
+            <img src="img/food2.jpg" alt="Chicken" class="food-images__item">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="food-images">
+              <img src="img/food3.jpg" alt="Meat" class="food-images__item">
+              <img src="img/food4.jpg" alt="Fish" class="food-images__item">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Third Screen-->
+  <div id="special" class="special">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="special-title">Today Special</h2>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="food">
+              <img src="img/dish.jpg" alt="dish1" class="food__img img-fluid">
+              <h3 class="food__title">Food Name one</h3>
+              <p class="food__desc">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+              <div class="food__details d-flex">
+                <div class="food__del">
+                  Home <span> Delivary</span>
+                </div>
+                <div class="food__phone">
+                  1-008 005 006
+                </div>
+                <div class="food__price yellow ml-auto">
+                  <sup><small>$</small></sup>
+  								89.00
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+          <div class="food">
+            <img src="img/dish1.jpg" alt="dish2" class="food__img img-fluid">
+            <h3 class="food__title">Food Name two</h3>
+            <p class="food__desc">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+            <div class="food__details d-flex">
+              <div class="food__del">
+                Home <span> Delivary</span>
+              </div>
+              <div class="food__phone">
+                1-008 005 006
+              </div>
+              <div class="food__price yellow ml-auto">
+                <sup><small>$</small></sup>
+                89.00
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="socials d-flex justify-content-center">
+            <li class="socials__item socials__item_fb">
+              <a href="#"></a>
+            </li>
+            <li class="socials__item socials__item_tw">
+              <a href="#"></a>
+            </li>
+            <li class="socials__item socials__item_g">
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="line"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="credits">
+            2018 ©   All rights reserved
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <form id="pract" class="white-popup-block mfp-hide">
+    <h1>Form</h1>
+    <fieldset style="border:0;">
+      <p>Lightbox has an option to automatically focus on the first input. It's strongly recommended to use <code>inline</code> popup type for lightboxes with form instead of <code>ajax</code> (to keep entered data if the user accidentally refreshed the page).</p>
+      <ol>
+        <li>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Name" required="">
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="example@domain.com" required="">
+        </li>
+        <li>
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="Eg. +447500000000" required="">
+        </li>
+        <li>
+          <label for="textarea">Textarea</label><br>
+          <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
+        </li>
+      </ol>
+    </fieldset>
+  </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

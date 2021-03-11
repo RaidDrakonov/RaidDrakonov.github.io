@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("../Ubuntu-Regular/Ubuntu-Regular.eot");
+    src: url("../Ubuntu-Regular/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../Ubuntu-Regular/Ubuntu-Regular.woff") format("woff"),
+        url("../Ubuntu-Regular/Ubuntu-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("../Ubuntu-Ligh/Ubuntu-Light.eot");
+    src:url("../Ubuntu-Ligh/Ubuntu-Light.eot?#iefix") format("embedded-opentype"),
+        url("../Ubuntu-Ligh/Ubuntu-Light.woff") format("woff"),
+        url("../Ubuntu-Ligh/Ubuntu-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("../Ubuntu-Medium/Ubuntu-Medium.eot");
+    src: url("../Ubuntu-Medium/Ubuntu-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../Ubuntu-Medium/Ubuntu-Medium.woff") format("woff"),
+        url("../Ubuntu-Medium/Ubuntu-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: bold;
+}

@@ -1,0 +1,16 @@
+/* Default styles */
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+@import "./blocks/base.css";
+@import "./blocks/buttons.css";
+
+@import "./blocks/menu-icon.css";
+@import "./blocks/nav.css";
+@import "./blocks/header.css";
+@import "./blocks/section-header.css";
+@import "./blocks/products-wrapper.css";
+@import "./blocks/info-section.css";
+@import "./blocks/post.css";
+@import "./blocks/section-subscribe.css";
+@import "./blocks/footer.css";

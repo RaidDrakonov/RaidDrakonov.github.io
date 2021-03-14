@@ -1,0 +1,53 @@
+.button {
+  display: inline-block;
+  padding: 0.5em 1.3em 0.5em;
+  background-color: #f72464;
+  box-shadow: 0px 4px 15px rgba(123, 12, 46, 0.35);
+  border-radius: 4px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  transition: color 0.4s ease-in, background-color 0.4s ease-in;
+}
+
+.button:hover {
+  color: #f72464;
+  background-color: #fff;
+}
+
+.section-button-wrapper {
+  text-align: center;
+}
+
+.button-outline {
+  display: inline-block;
+  padding: 10px 40px 11px;
+  background-color: #ffffff;
+  border: 1px solid #f72464;
+  border-radius: 4px;
+
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #777777;
+  transition: color 0.4s ease-in, background-color 0.4s ease-in;
+}
+
+.button-outline:hover {
+  color: #f72464;
+  background-color: #000;
+}
+
+@media (min-width: 992px) {
+  .button {
+    font-size: 26px;
+  }
+}

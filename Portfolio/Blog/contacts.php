@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contacts.css">
-	<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     

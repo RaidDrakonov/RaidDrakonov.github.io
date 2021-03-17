@@ -1,0 +1,130 @@
+.top {
+  padding-bottom: 86px;
+}
+
+.top__title {
+  margin-bottom: 54px;
+}
+
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 57px;
+  grid-row-gap: 57px;
+}
+.top__card {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 2;
+}
+
+.top-place__pic {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.top-card__stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+  padding: 16px 25px;
+}
+.top-card__title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #ffffff;
+  margin: 0 auto 0 0;
+}
+.top__card-likes {
+  margin-right: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  padding-right: 20px;
+  background: url("../../img/svg/heart.svg") no-repeat right center;
+}
+
+.top__card-comments {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  padding-right: 23px;
+  background: url("../../img/svg/comment.svg") no-repeat right center;
+}
+
+.top-card__descr {
+  margin-bottom: 31px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #102746;
+}
+
+.top-card__link {
+  margin: auto 0 0 0;
+  width: 118px;
+  padding: 12px 19px;
+  font-size: 16px;
+  line-height: 1.1875;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #006dfe;
+  opacity: 1;
+}
+
+.top-card__link:hover,
+.top-card__link:active {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 960px) {
+  .top__cards {
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+  }
+
+  .top__card {
+    grid-column: span 3;
+  }
+
+  .top-place__pic {
+    margin-bottom: 25px;
+  }
+
+  .top-card__descr {
+    margin-bottom: 20px;
+  }
+
+  .top-card__stats {
+    max-width: 386px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top {
+    margin-bottom: 60px;
+  }
+
+  .top__title {
+    margin-bottom: 20px;
+  }
+
+  .top__card {
+    grid-column: span 6;
+    align-items: center;
+  }
+
+  .top-card__descr {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}

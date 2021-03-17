@@ -1,0 +1,138 @@
+.places {
+  padding-bottom: 130px;
+}
+
+.places__caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.places__title {
+  margin-right: 15px;
+}
+
+.places__link {
+  font-size: 16px;
+  color: #006dfe;
+  padding-right: 59px;
+  background: url("../../img/svg/arrow.svg") no-repeat right center;
+  opacity: 1;
+}
+
+.places__link:hover,
+.places__link:focus {
+  opacity: 0.7;
+}
+
+.places__cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.places__card-lg {
+  grid-column: span 3;
+}
+
+.places__card-sm {
+  grid-column: span 2;
+}
+
+.places__card {
+  position: relative;
+  overflow: hidden;
+}
+
+.places__card::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 24, 36, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.places__card:hover .places__card-img {
+  transform: scale(1.05);
+}
+
+.places__card-img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.15s all;
+}
+
+.places__card-img-lg {
+  height: 354px;
+}
+
+.places__card-img-sm {
+  height: 283px;
+}
+
+.places__card-title {
+  position: absolute;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #fff;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+}
+
+.place__card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+@media screen and (max-width: 960px) {
+  .places__card-lg {
+    grid-column: span 6;
+  }
+
+  .places__card-sm {
+    grid-column: span 6;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__card-img-lg,
+  .places__card-img-sm {
+    height: 300px;
+  }
+
+  .places__card-title {
+    font-size: 35px;
+  }
+
+  .places {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .places__link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .places__card-img-lg,
+  .places__card-img-sm {
+    height: 260px;
+  }
+
+  .places__card-title {
+    font-size: 25px;
+  }
+}
